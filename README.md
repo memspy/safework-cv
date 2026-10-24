@@ -383,3 +383,8 @@ The default person detector is built on [Ultralytics YOLO](https://github.com/ul
 | [NumPy](https://numpy.org/) | BSD-3-Clause |
 | [PyYAML](https://pyyaml.org/) | MIT |
 | [mss](https://github.com/BoboTiG/python-mss) (optional) | MIT |
+
+## Disclaimer & Credits
+
+* **Content Warning:** This repository uses screenshots and video frames from public industrial incident archives and educational compilations available on YouTube for the sole purpose of demonstrating the neural network's detection capabilities (e.g., fire, falls, and hazardous zone violations). 
+* **Fair Use:** The media materials are used under the "Fair Use" doctrine for non-commercial, educational, and research purposes. No copyright infringement is intended. All rights belong to their respective owners.
