@@ -384,7 +384,8 @@ The default person detector is built on [Ultralytics YOLO](https://github.com/ul
 | [PyYAML](https://pyyaml.org/) | MIT |
 | [mss](https://github.com/BoboTiG/python-mss) (optional) | MIT |
 
-## Disclaimer & Credits
+## Media Content License & Third-Party Rights
 
-* **Content Warning:** This repository uses screenshots and video frames from public industrial incident archives and educational compilations available on YouTube for the sole purpose of demonstrating the neural network's detection capabilities (e.g., fire, falls, and hazardous zone violations). 
-* **Fair Use:** The media materials are used under the "Fair Use" doctrine for non-commercial, educational, and research purposes. No copyright infringement is intended. All rights belong to their respective owners.
+* **AGPL-3.0 Exclusion:** The images and video frames used in the "Screenshots" section of this README are the property of their respective copyright owners (including but not limited to Newsflare, Accidents & Fails, and Mind Warehouse). These media materials are **strictly excluded** from the AGPL-3.0 license of this repository. You may not reuse, redistribute, or modify these images under the terms of the project's open-source license.
+* **Purpose:** These materials are included solely as non-commercial, static visual examples to demonstrate the neural network's analytical capabilities in public safety scenarios. 
+* **Copyright Takedown:** If you are the rightful owner of any video footage used here and wish to have your content removed, please contact the maintainer directly via contacts in github profile, and the assets will be replaced immediately.
