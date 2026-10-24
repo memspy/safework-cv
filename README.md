@@ -386,6 +386,6 @@ The default person detector is built on [Ultralytics YOLO](https://github.com/ul
 
 ## Media Content License & Third-Party Rights
 
-* **AGPL-3.0 Exclusion:** The images and video frames used in the "Screenshots" section of this README are the property of their respective copyright owners (including but not limited to Newsflare, Accidents & Fails, and Mind Warehouse). These media materials are **strictly excluded** from the AGPL-3.0 license of this repository. You may not reuse, redistribute, or modify these images under the terms of the project's open-source license.
-* **Purpose:** These materials are included solely as non-commercial, static visual examples to demonstrate the neural network's analytical capabilities in public safety scenarios. 
+* **AGPL-3.0 Exclusion:** The images and video frames used in the "Screenshots" section of this README are the property of their respective copyright owners (including but not limited to Accidents & Fails and Mind Warehouse). These media materials are **strictly excluded** from the AGPL-3.0 license of this repository. You may not reuse, redistribute, or modify these images under the terms of the project's open-source license.
+* **Purpose:** These materials are included solely as non-commercial, static visual examples to demonstrate the neural network's analytical capabilities in public safety scenarios.
 * **Copyright Takedown:** If you are the rightful owner of any video footage used here and wish to have your content removed, please contact the maintainer directly via contacts in github profile, and the assets will be replaced immediately.
