@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safework-cv"
+dynamic = ["version"]
+description = "Computer vision safety monitoring for construction sites and factories: falls, edge proximity, immobility, running, lost workers and fire."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "SafeWork CV contributors" }]
+keywords = ["computer-vision", "workplace-safety", "yolo", "mediapipe", "pose-estimation", "cctv", "industrial-safety"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "numpy>=1.24",
+    "opencv-python>=4.8",
+    "mediapipe>=0.10.14",
+    "ultralytics>=8.3",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+screen = ["mss>=9.0"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+safework-cv = "safework_cv.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/OWNER/safework-cv"
+Issues = "https://github.com/OWNER/safework-cv/issues"
+Changelog = "https://github.com/OWNER/safework-cv/blob/main/CHANGELOG.md"
+
+[tool.setuptools.dynamic]
+version = { attr = "safework_cv.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/safework_cv/sinks.py" = ["SIM115"]

@@ -1,0 +1,97 @@
+device: ""
+model_dir: ""
+
+yolo_weights: yolo11n.pt
+yolo_conf: 0.15
+yolo_imgsz: 640
+yolo_nms_iou: 0.6
+
+rotated_scan_seconds: 1.2
+rotated_conf: 0.4
+rotated_min_aspect: 1.1
+rotated_dedup_iou: 0.3
+recovery_min_gap_seconds: 0.3
+recovery_interval_seconds: 0.6
+recovery_crop_ratio: 2.2
+max_rotated_regions: 2
+
+color_fire: true
+hazard_weights: ""
+hazard_conf: 0.5
+hazard_interval_seconds: 0.4
+hazard_hold_seconds: 2.0
+hazard_gap_seconds: 1.0
+fire_hue_min: 5
+fire_hue_max: 32
+fire_sat_min: 110
+fire_val_min: 210
+fire_work_width: 320
+fire_window_seconds: 1.5
+fire_min_frames: 6
+fire_min_area_ratio: 0.004
+fire_max_area_ratio: 0.5
+fire_min_flicker: 0.25
+fire_person_margin: 0.1
+
+enable_pose: true
+pose_variant: lite
+pose_confidence: 0.3
+pose_interval_seconds: 0.2
+pose_hold_seconds: 1.0
+pose_trust_seconds: 0.5
+crop_padding: 0.15
+min_visibility: 0.5
+smoothing_alpha: 0.6
+
+new_track_score: 0.45
+confirm_min_score: 0.35
+confirm_hits: 4
+confirm_seconds: 0.8
+slow_confirm_hits: 2
+slow_ttl_seconds: 4.0
+match_gate: 0.8
+relink_radius_ratio: 1.5
+tentative_ttl_seconds: 0.6
+present_grace_seconds: 2.5
+track_reset_gap_seconds: 3.0
+teleport_ratio: 1.2
+duplicate_overlap: 0.5
+
+camera_up: [0.0, -1.0]
+upright_angle_deg: 35.0
+lying_angle_deg: 60.0
+upright_extent_ratio: 1.2
+lying_strict_ratio: 0.6
+lying_loose_ratio: 0.9
+posture_release_seconds: 0.6
+
+edge_distance_ratio: 0.3
+edge_hold_seconds: 0.3
+
+immobile_seconds: 8.0
+motion_eps: 0.05
+box_motion_eps: 0.1
+
+fall_window_seconds: 2.0
+fall_min_drop_ratio: 0.25
+fall_min_speed: 0.5
+fall_confirm_seconds: 0.4
+fall_alert_seconds: 8.0
+
+speed_window_seconds: 1.2
+speed_min_span_seconds: 0.5
+depth_gain: 1.5
+run_speed: 1.4
+run_hold_seconds: 0.6
+
+occlusion_seconds: 12.0
+occlusion_min_pose_hits: 3
+occlusion_min_hits: 12
+occlusion_min_height_ratio: 0.08
+occlusion_forget_seconds: 600.0
+exit_margin_ratio: 0.02
+
+history_seconds: 3.0
+panel_max_lines: 6
+alert_clear_seconds: 2.0
+reconnect_seconds: 3.0
