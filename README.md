@@ -4,7 +4,7 @@
 
 **Computer vision for workplace safety: detect falls, edge proximity, immobility, running, lost workers and fire on ordinary CCTV streams.**
 
-[![CI](https://github.com/OWNER/safework-cv/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/safework-cv/actions/workflows/ci.yml)
+[![CI](https://github.com/memspy/safework-cv/actions/workflows/ci.yml/badge.svg)](https://github.com/memspy/safework-cv/actions/workflows/ci.yml)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Status](https://img.shields.io/badge/status-alpha-orange.svg)](#status-and-safety-notice)
