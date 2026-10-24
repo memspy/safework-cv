@@ -47,7 +47,7 @@ Other highlights:
 |:---:|:---:|
 | <img src="images/lying%28dangerous%29.png" alt="Person lying on the ground"> | <img src="images/running.png" alt="Running"> |
 | <img src="images/lost.png" alt="Lost worker"> | <img src="images/fireexample.png" alt="Fire detection"> |
-| <img src="images/simple2.png" alt="People tracked in the frame"> 
+| <img src="images/simple2.png" alt="People tracked in the frame"> | <img src="images/simple.png" alt="simple">
 
 Overlay legend: green box, tracked person; red, active alert; orange, running; yellow cross, last known point of a lost worker; thin box with `held`, position kept without a fresh detection; cyan line, marked edge. `v=` shows speed in body lengths per second.
 
