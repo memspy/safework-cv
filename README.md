@@ -75,7 +75,7 @@ flowchart LR
 Python 3.10 or newer is required.
 
 ```bash
-git clone https://github.com/OWNER/safework-cv.git
+git clone https://github.com/memspy/safework-cv.git
 cd safework-cv
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
